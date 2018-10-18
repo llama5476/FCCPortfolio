@@ -1,0 +1,26 @@
+h1 {
+   font-family: 'M PLUS 1p', sans-serif;
+   text-align: right;
+   margin-right: 3%;
+   font-size: 2.5em;
+}
+
+img {
+   width: 30%;
+   float: left;
+   margin: 1.66%;
+}
+
+@media screen and (max-width: 900px) {
+   img {
+      width: 50%;
+      margin: auto;
+   }
+}
+
+@media screen and (max-width: 500px) {
+   img {
+      width: 100%;
+      margin: auto;
+   }
+}
